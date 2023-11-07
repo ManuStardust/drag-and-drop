@@ -1,0 +1,101 @@
+<html>
+<head>
+<style>
+#div1, #div2, #div3, #div4, #div5, #div6, #div7 {
+	width: 400px;
+	height: 75px;
+	margin: 10 px;
+	padding: 10 px;
+	border: 1px solid rgb(113, 47, 180);
+
+}
+
+
+table{
+    text-align: center;
+    font-size: larger;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(125, 37, 208);
+}
+body{
+    background-color: antiquewhite;
+}
+
+</style>
+</head>
+<body>
+    <script src="./Script.js"></script>
+<h2>Drag and Drop - com cores!</h2>
+<p>Arraste a cor para sua respectiva div.</p>
+
+<table>
+<tr>
+
+<td><div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+<p draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31"></draggable>🟥</p> 
+</div></td>
+
+<td><div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)">Roxo</div></td>
+
+</tr>
+
+<tr>
+
+<td><div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <p draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31"></draggable>🟪</p> 
+    </div></td>
+     <td><div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)">Amarelo</div></td>
+
+</tr>
+
+<tr>
+
+    <td><div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <p draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">🟧</p>
+        </div></td>
+         <td><div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)">Marrom</div></td>
+    
+    </tr>
+
+    <tr>
+
+        <td><div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <p draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31"></draggable>🟩</p> 
+            </div></td>
+             <td><div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)">Azul</div></td>
+        
+        </tr>
+
+        <tr>
+
+            <td><div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <p draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31"></draggable>🟦</p> 
+                </div></td>
+                 <td><div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)">Laranja</div></td>
+            
+            </tr>
+
+            <tr>
+
+                <td><div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <p draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31"></draggable>🟨</p> 
+                    </div></td>
+                     <td><div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)">Vermelho</div></td>
+                
+                </tr>
+
+                <tr>
+
+                    <td><div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31"></draggable>🟫</p> 
+                        </div></td>
+                         <td><div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)">Verde</div></td>
+                    
+                    </tr>
+
+</table>
+
+</body>
+</html>
